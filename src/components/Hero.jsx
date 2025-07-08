@@ -28,7 +28,9 @@ function Hero() {
         >
           <Button>Connect with me</Button>
         </a>
-        <Button>Skills</Button>
+        <a href="#Skills">
+          <Button>Skills</Button>
+        </a>
       </div>
     </div>
   );
