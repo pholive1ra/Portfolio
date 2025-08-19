@@ -1,4 +1,5 @@
-import LoginPage from '../assets/Projects/Login-Page-2.png';
+import LoginPage from "../assets/Projects/Login-Page-2.png";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
@@ -10,27 +11,15 @@ function Projects() {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto gap-6 justify-items-center">
-        <div className="w-full max-w-[300px] rounded overflow-hidden shadow-lg cursor-pointer transition-transform duration-300 hover:scale-105">
-          <a
-            href="https://github.com/pholive1ra/Login-Page"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={LoginPage}
-              alt="Login Page"
-              className="w-full h-auto object-cover"
-            />
-          </a>
-          <div className="p-4 bg-gray-800 text-white">
-            <h3 className="font-semibold text-lg">Login Page</h3>
-            <p className="text-sm mt-1 text-left">
-              Página de login usando MaterialUI + TailwindCSS + ReactJS
-            </p>
-          </div>  
-        </div>
+        <ProjectCard
+          img={LoginPage}
+          alt="Login Page"
+          link="https://github.com/pholive1ra/Login-Page"
+          title="Login Page"
+          description="Página de login usando MaterialUI + TailwindCSS + ReactJS"
+        />
 
-        {/* Adicione outros projetos aqui duplicando o bloco */}
+        {/* Basta duplicar <ProjectCard /> com props diferentes */}
       </div>
     </div>
   );
