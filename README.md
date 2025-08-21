@@ -8,12 +8,15 @@ Mesmo ainda estando em constante evolução como desenvolvedor front-end, este p
 🔧 Tecnologias Utilizadas
 
 ⚛️ ReactJS
+
 🎨 TailwindCSS
 
 ✨ Funcionalidades
 
 -Layout responsivo
+
 -Design moderno com TailwindCSS
+
 -Estrutura simples e escalável
 
 📚 Aprendizados
@@ -21,5 +24,6 @@ Mesmo ainda estando em constante evolução como desenvolvedor front-end, este p
 Este projeto me ajudou a:
 
 -Reforçar conhecimentos em componentes e props do React.
+
 -Praticar estilização com TailwindCSS.
 
