@@ -5,13 +5,17 @@ O objetivo principal foi praticar desenvolvimento front-end moderno, aprimorar m
 
 Mesmo ainda estando em constante evolução como desenvolvedor front-end, este projeto representa mais um passo importante na minha jornada. 🚀
 
+
 🔧 Tecnologias Utilizadas
+
 
 ⚛️ ReactJS
 
 🎨 TailwindCSS
 
+
 ✨ Funcionalidades
+
 
 -Layout responsivo
 
@@ -19,7 +23,9 @@ Mesmo ainda estando em constante evolução como desenvolvedor front-end, este p
 
 -Estrutura simples e escalável
 
+
 📚 Aprendizados
+
 
 Este projeto me ajudou a:
 
