@@ -13,20 +13,17 @@ function Hero() {
       ></img>
       <h1 className="text-white text-3xl sm:text-5xl mb-4">
         <span className="bg-gradient-to-r from-30% from-indigo-700 to-white bg-clip-text text-transparent">
-          I'm Pedro Henrique
+          Pedro Henrique
         </span>
-        , frontend developer from Brazil.
+        , Desenvolvedor FrontEnd
       </h1>
-      <p className="text-indigo-700 sm:text-2xl max-w-4xl mt-4 mb-6">
-        I am a frontend developer in Brazil, I am looking for my first
-        experience in the technology area.
-      </p>
+
       <div className="flex flex-col sm:flex-row gap-4 mt-6">
         <a
           href="https://www.linkedin.com/in/pedro-henrique-566211266/"
           target="_blank"
         >
-          <Button>Connect with me</Button>
+          <Button>Conectar</Button>
         </a>
         <a href="#Skills">
           <Button>Skills</Button>

@@ -18,20 +18,19 @@ function About() {
       <div className="text-white max-w-xl text-left">
         <h2 className="text-4xl font-bold mb-4 sm:mb-12">
           <span className="bg-gradient-to-r from-30% from-indigo-700 to-white bg-clip-text text-transparent">
-            About me
+            Sobre mim
           </span>
         </h2>
         <p className="mb-4 text-lg">
-          I am a 4th semester Systems Analysis and Development student, with a
-          strong interest and focus on Front-end development. I have solid
-          knowledge of web technologies such as HTML, CSS, JavaScript,
-          TailwindCSS & React, as well as versioning fundamentals with Git,
-          GitHub and knowledge of MySQL.
+          Sou estudante do 5º semestre de Análise e Desenvolvimento de Sistemas,
+          com grande interesse e foco em desenvolvimento Front-end. Possuo
+          sólido conhecimento em tecnologias web como HTML, CSS, JavaScript,
+          TailwindCSS, TypeScript e React, além de fundamentos de versionamento
+          com Git, GitHub e conhecimento de MySQL e APIs REST. Estou em
+          constante aprendizado e aprimoramento para oferecer a melhor
+          experiência ao usuário.
         </p>
-        <p className="text-lg">
-          I’m constantly learning and improving to deliver the best user
-          experience.
-        </p>
+
         {/* Adicione seus ícones aqui (opcional) */}
         <div className="flex justify-center gap-4 sm:justify-start text-center mt-4 sm:mt-6 ">
           <a

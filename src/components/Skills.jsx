@@ -5,7 +5,12 @@ import {
   FaGithub,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiMysql } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiJavascript,
+  SiMysql,
+  SiTypescript,
+} from "react-icons/si";
 
 function Skills() {
   return (
@@ -21,6 +26,11 @@ function Skills() {
         <div className="bg-gray-800 cursor-pointer p-6 rounded-xl hover:scale-[1.03] transition-transform duration-300 flex flex-col items-center mx-auto w-full max-w-[180px]">
           <FaReact className="text-5xl text-cyan-400 mb-3" />
           <p className="font-semibold text-lg">React</p>
+        </div>
+
+        <div className="bg-gray-800 cursor-pointer p-6 rounded-xl hover:scale-[1.03] transition-transform duration-300 flex flex-col items-center mx-auto w-full max-w-[180px]">
+          <SiTypescript className="text-5xl text-blue-700 mb-3" />
+          <p className="font-semibold text-lg">TypeScript</p>
         </div>
 
         {/* HTML */}

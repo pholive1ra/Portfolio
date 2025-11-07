@@ -18,16 +18,16 @@ function Navbar() {
         {/* Menu Desktop (original) */}
         <ul className="hidden md:flex gap-6 font-bold">
           <li className="cursor-pointer text-indigo-700 rounded-full px-4">
-            Home
+            Início
           </li>
           <li className="cursor-pointer hover:bg-indigo-700 rounded-full px-4">
-            <a href="#about">About me</a>
+            <a href="#about">Sobre mim</a>
           </li>
           <li className="cursor-pointer hover:bg-indigo-700 rounded-full px-4">
             <a href="#Skills">Skills</a>
           </li>
           <li className="cursor-pointer hover:bg-indigo-700 rounded-full px-4">
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projetos</a>
           </li>
         </ul>
 
@@ -36,9 +36,11 @@ function Navbar() {
           href="https://www.linkedin.com/in/pedro-henrique-566211266/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex items-center bg-white text-indigo-700 px-5 py-2 rounded-full font-bold hover:bg-indigo-50 hover:border-indigo-700 hover:border cursor-pointer"
+          className="hidden md:flex items-center bg-white text-indigo-700 px-5 py-2 rounded-full font-bold 
+             border-2 border-transparent hover:border-indigo-700 hover:bg-indigo-50 cursor-pointer"
         >
-          <FaLinkedin className="mr-2" /> Connect with me
+          <FaLinkedin className="mr-2" />
+          Conectar
         </a>
 
         {/* Botão Mobile */}
@@ -70,14 +72,14 @@ function Navbar() {
             className="text-2xl text-white flex items-center px-6 py-3 hover:bg-indigo-600 rounded-full transition-colors"
             onClick={toggleMenu}
           >
-            Home
+            Início
           </a>
           <a
             href="#about"
             className="text-2xl text-white flex items-center px-6 py-3 hover:bg-indigo-600 rounded-full transition-colors"
             onClick={toggleMenu}
           >
-            About me
+            Sobre mim
           </a>
           <a
             href="#skills"
@@ -91,14 +93,14 @@ function Navbar() {
             className="text-2xl text-white flex items-center px-6 py-3 hover:bg-indigo-600 rounded-full transition-colors"
             onClick={toggleMenu}
           >
-            Projects
+            Projetos
           </a>
           <a
             href="#contact"
             className="text-2xl text-white flex items-center px-6 py-3 hover:bg-indigo-600 rounded-full transition-colors"
             onClick={toggleMenu}
           >
-            Contact
+            Contato
           </a>
 
           <a
@@ -108,7 +110,7 @@ function Navbar() {
             className="mt-4 flex items-center px-8 py-3 rounded-full bg-white text-indigo-700 font-bold hover:bg-indigo-100 transition-colors"
             onClick={toggleMenu}
           >
-            <FaLinkedin className="mr-3" /> Connect with me
+            <FaLinkedin className="mr-3" /> Conectar
           </a>
         </div>
       )}
