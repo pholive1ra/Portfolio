@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import MinhaImagem from "../assets/Eu.png";
+import MinhaImagem from "../assets/MeImage2.png";
 
 function About() {
   return (
@@ -22,13 +22,13 @@ function About() {
           </span>
         </h2>
         <p className="mb-4 text-lg">
-          Sou estudante do 5º semestre de Análise e Desenvolvimento de Sistemas,
-          com grande interesse e foco em desenvolvimento Front-end. Possuo
-          sólido conhecimento em tecnologias web como HTML, CSS, JavaScript,
-          TailwindCSS, TypeScript e React, além de fundamentos de versionamento
-          com Git, GitHub e conhecimento de MySQL e APIs REST. Estou em
-          constante aprendizado e aprimoramento para oferecer a melhor
-          experiência ao usuário.
+          Desenvolvedor Front-End formado em Análise e Desenvolvimento de
+          Sistemas, com foco em React, TypeScript e TailwindCSS. Experiência no
+          desenvolvimento de interfaces modernas, responsivas e orientadas à
+          usabilidade, aplicando boas práticas de componentização, controle de
+          estado e versionamento com Git. Atuação em ambientes colaborativos,
+          com foco em aprendizado contínuo e entrega de soluções eficientes
+          alinhadas às necessidades do produto.
         </p>
 
         {/* Adicione seus ícones aqui (opcional) */}
