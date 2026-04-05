@@ -3,6 +3,7 @@ import BarbeariaPrestige from "../assets/Projects/barbeariaprestige.png";
 import PortalFonte from "../assets/Projects/portalfonte.png";
 import WeatherAPI from "../assets/Projects/weatherapi.png";
 import CountriesSearch from "../assets/Projects/countriessearch.png";
+import Cartzen from "../assets/Projects/cartzen.png";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
@@ -16,11 +17,11 @@ function Projects() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto gap-6 justify-items-center">
         <ProjectCard
-          img={BarbeariaPrestige}
-          alt="Barbearia Prestige"
-          link="https://barbearia-prestige.vercel.app/"
-          title="Barbearia Prestige"
-          description="Sistema de serviço de agendamento visando facilitar a barbearia e o cliente. (Projeto em andamento atualmente)"
+          img={Cartzen}
+          alt="Cartzen"
+          link="https://cartzen-ecommerce.vercel.app/"
+          title="Cartzen"
+          description="Cartzen é um e-commerce moderno construído em React e Tailwind, com interface responsiva, gerenciamento de carrinho em tempo real e experiência de usuário inspirada em lojas reais."
         />
 
         <ProjectCard
@@ -29,6 +30,14 @@ function Projects() {
           link="https://portalfonte.com/"
           title="Portal Fonte"
           description="Participei da criação de uma página universitária com fins de comunicação: NextJS, TypeScript, MySQL. fui responsável pela criação e manutenção de componentes de interface reutilizáveis, contribuindo diretamente para a padronização visual, organização do código e consistência da experiência do usuário."
+        />
+
+        <ProjectCard
+          img={BarbeariaPrestige}
+          alt="Barbearia Prestige"
+          link="https://barbearia-prestige.vercel.app/"
+          title="Barbearia Prestige"
+          description="Sistema de serviço de agendamento visando facilitar a barbearia e o cliente. (Projeto em andamento atualmente)"
         />
 
         <ProjectCard
