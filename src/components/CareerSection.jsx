@@ -6,8 +6,10 @@ export default function CareerSection() {
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="mb-16 flex flex-col items-center text-center">
-          <h2 className="text-4xl font-bold tracking-tight md:text-6xl">
-            Trajetória Profissional
+          <h2 className="text-4xl font-bold mb-8">
+            <span className="bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent">
+              Trajetória Profissional
+            </span>
           </h2>
         </div>
 
