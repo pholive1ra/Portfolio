@@ -22,13 +22,12 @@ function About() {
           </span>
         </h2>
         <p className="mb-4 text-lg">
-          Desenvolvedor Front-End formado em Análise e Desenvolvimento de
-          Sistemas, com foco em React, TypeScript e TailwindCSS. Experiência no
-          desenvolvimento de interfaces modernas, responsivas e orientadas à
-          usabilidade, aplicando boas práticas de componentização, controle de
-          estado e versionamento com Git. Atuação em ambientes colaborativos,
-          com foco em aprendizado contínuo e entrega de soluções eficientes
-          alinhadas às necessidades do produto.
+          Desenvolvedor Front-End com experiência na construção e evolução de
+          aplicações web escaláveis, criando interfaces modernas orientadas à
+          performance, usabilidade e experiência do usuário. Atuo na
+          transformação de regras de negócio complexas em soluções intuitivas,
+          responsivas e de alta qualidade técnica, com foco em componentização,
+          integração com APIs REST e código limpo.
         </p>
 
         {/* Adicione seus ícones aqui (opcional) */}
